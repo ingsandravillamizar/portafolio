@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Link a las fuentes de Google -->   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Portafolio Sandra Villamizar-Contacto</title>
+</head>
+<body>
+    <! estos es un comentario -->
+
+    <h1 class="titulo">Formulario</h1>
+    <form action="url o endpoint donde vamos a enviar el formulario">
+     <label for="nombre">
+         <span>Tu nombre</span>
+         <input type="text" id="nombre" id="nombre" autocomplete = "name" placeholder="Tu nombre" required>
+     </label>
+     <label for="celular">
+        <span>Celuar?</span>
+        <input type="text" id="celular" id="celular" autocomplete = "tel"  required>
+    </label>
+    <label for="direccion">
+        <span>Direccion</span>
+        <input type="text" id="direccion" id="direccion"  autocomplete = "address-line1" required>
+    </label>
+    <label for="email">
+        <span>Email</span>
+        <input type="email" id="email" id="email" placeholder="email@proveedor.com" autocomplete = "email"  required>
+    </label>
+    <label for="fecha-entrega">
+        <span>Fecha de Entrega?</span>
+        <input type="datetime-local" id="fecha-entrega" id="fecha-entrega"  required>
+    </label> 
+
+    <!--  Fecha Hora de entrega de manera independiente
+    <label for="fecha-entrega">
+        <span>Fecha de Entrega?</span>
+        <input type="date" id="fecha-entrega"placeholder="dd/mm/yyyy" required>
+    </label> 
+    
+    <label for="hora-entrega">
+        <span>Hora de Entrega?</span>
+        <input type="time" id="hora-entrega" required>
+    </label>  -->
+
+    <input list="concentrado" />
+    <datalist id="concentrado">
+      <option value="Proplan"></option>
+      <option value="Hills"></option>
+      <option value="Monello"></option>
+    </datalist>
+
+    <!--  Es mas flexible   <input type="submit" value="Nombre"> -->   
+    <button type="submit">Enviar</button>  <!--  Es mas flexible  -->
+    </form>
+</body>
+</html>

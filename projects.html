@@ -4,60 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Link a las fuentes de Google -->   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/header.css">
     <title>Portafolio Sandra Villamizar-Contacto</title>
 </head>
 <body>
-    <header>
-        <h1>Proyectos Desarrollados</h1>
-      </header>
-     <main>
-        <nav>
-          <ol>
-            <li>Software Escritorio</li>
-            <ol>
-              <li><a href="https://bit.ly/3aUwSV7" target="__blanck">POS de Venta &#127813;</a></li>
-              <li><a href="https://bit.ly/3liWIGX" target="__blanck">Call Center &#127817;</a></li>
-              <li><a href="https://bit.ly/31qMUTw" target="__blanck">Celfrio &#127815;</a></li>
-            </ol>
-          </ol>
 
-          <ol>
-            <li>Web</li>
-            <ol>
-              <li><a href="https://bit.ly/3aUwSV7" target="__blanck">Portafolio &#127813;</a></li>
-            </ol>
-          </ol>
-          <ol>
-            <li>Documentos Electronicos</li>
-            <ol>
-              <li><a href="https://bit.ly/3aUwSV7" target="__blanck">Factura &#127813;</a></li>
-              <li><a href="https://bit.ly/3aUwSV7" target="__blanck">Nomina &#127813;</a></li>
-              <li><a href="https://bit.ly/3aUwSV7" target="__blanck">Documento Soporte &#127813;</a></li>
-            </ol>
-          </ol>
-          <ol>
-            <li>Analitica de Datos</li>
-            <ol>
-              <li><a href="https://bit.ly/3aUwSV7" target="__blanck">Desarrollo macros Excel &#127813;</a></li>
-              <li><a href="https://bit.ly/3aUwSV7" target="__blanck">Power Bi (Proximamente) &#127813;</a></li>
-            </ol>
-          </ol>
- 
-        </nav>     
+    <header class = "header">
+        
+        <h1 class="header-h1">
+            <img  class="header-img" src="./images/carrito.png" alt="Mi foto de perfil">Mis Proyectos
+        </h1>
+        <a href="./">Home</a>
+        <nav class= "header-nav"> 
+            <ul class="header-list"> 
+                <h3><strong></strong></h3>
+                <li class="header-list__item"> <a href= "./blog.html">Blog</a></li>
+                <li class="header-list__item"> <a href= "./projects.html">Proyectos</a></li>
+                <li class="header-list__item"> <a href= "./about.html">Sobre Mi</a></li>
+                <li class="header-list__item"> <a href= "./contact.html">Contacto</a></li>
+                <li class="header-list__item"> <a href= "./vinculos.html">Links de interes</a></li>
+                <li class="header-list__item"> <a href= "./formulario.html">Formulario</a></li>
+                <li class="header-list__item"> <a href= "./pedido.html">Apoya mi emprendimiento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        
+
+        <section class="section-proyectos">
+            <ul class="lista-proyectos">
+                <li class="lista-subproyectos">
+                    <div class="div-lista Escritorio">
+                        <h3>Sw Escritorio</h3>
+                    </div>
+
+                   <ol>
+                       <li id="pos">Pos </li>
+                       <li id="call">Call Center</li>
+                       <li id="celfrio">Celfrio</li>
+                       <li id="traceplus">Trazabilidad Sacrificio   </li>
+                       <li id="etiquetado">Sistema Etiquetado </li>
+                       <li id="predios">Administración Predios</li>
+                   </ol>
+                </li>
+                <li class="lista-subproyectos">
+                    <div class="div-lista Web">
+                        <h3>Web</h3>
+                    </div>
+                    <ol>
+                        <li id="portafolio">Mi Portafolio</li>
+                        
+                    </ol>
+                </li>
+                <li class="lista-subproyectos">
+                    <div class="div-lista Electronico">
+                        <h3 >Electrónicos</h3>
+                    </div>
+                    <ol>
+                        <li >Factura</li>
+                        <li>Nomina</li>
+                        <li>Documento Soporte</li>
+                    </ol>
+                </li>
+                <li class="lista-subproyectos">
+                    <div class="div-lista Datos">
+                        <h3 >Analitica</h3>
+                    </div>
+                    <ol>
+                        <li>Macros Excel</li>
+                        <li>Consumo de Api</li>
+                        <li>Power Bi</li>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+
     </main>
-    <section>
-        <h3>Imagenes de Referencia</h3>
-        <figure">
-          <img src="images/manzana.jpg" alt="Imagen de Manzana" width="100px" />
-          <img src="images/manzana.jpg" alt="Imagen de Sandia" width="100px" />
-          <img src="images/manzana.jpg" alt="Imagen de Uvas" width="100px" />
-          <img src="images/manzana.jpg" alt="Imagen de Jitomates" width="100px"/>
-          <img src="images/manzana.jpg" alt="Imagen de Hongos" width="100px" />
-          <img src="images/manzana.jpg" alt="Imagen de Playera" width="100px" />
-          <img src="images/manzana.jpg" alt="Imagen de Pantalon" width="100px" />
-          <img src="images/manzana.jpg" alt="Imagen de Camisa" width="100px" />
-        <figcaption>Imaganes de Desarrollos Ejecutados</figcaption>
-        </figure>
-      </section>    
+  
+    <footer>
+        <h2>  Sandra  Villamizar  &#169 </h2>
+    </footer>
+      <!--  Link a las fuentes de Google    <script src="./js/animacion.js"></script> -->
 </body>
 </html>

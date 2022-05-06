@@ -1,12 +1,106 @@
 
+/*resetear todo lo que el navegador coloca por defecto*/
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /*Nos ayuda a que todo se ajuste de acuerdo a los % qu usemos par margin, padding en los width */
+} 
+
+
+
+/* ubicar el encabezado al lado izquierdo */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15 px;
+} 
+
+.header-nav{
+    margin-top: 10px;
+    
+    padding-left: 0px;  /*dimension interna que se le da */
+    font-weight: bold;
+    /*da color solo a lo que estte en el nav de main */
+    /*background: linear-gradient(to right, rgb(75, 108, 183), rgb(24, 40, 72)); */
+  }
+
+
+  
+/*Logo    lo hacemos ver pequeño */
+.header-img{
+    width: 30px;
+    height: 30px;
 }
 
-body{
-    font-family: sans-serif;
+.header-list{
+    display: flex;   /*que se vea horizontal */
+    list-style: none ; /*none quita los puntos a la list */
+    justify-content: space-between;
+    width: 800px;
+
 }
 
 
+.header-list__item a {
+    color: rgb(15, 44, 70);
+    padding: 5px;
+    text-decoration: none;  /*quita el subrayado del link */
+   
+   /* border-radius:  2px; da la apariencia de botoncitos si le damos un backgroud */
+}
+
+/*cuando pase el mouse se subraya*/
+.header a:hover{
+    text-decoration: underline;
+}
+
+
+/*MAIN */
+
+.main{
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;   /*lo quiero visuarlizar el borde */
+    padding: 20px 35px;
+    }
+
+ .main-container{
+     display: flex;
+     width: 75%;
+     margin:20px auto;
+     justify-content: space-between;
+     border: 2px solid blue;
+ }
+
+/*foto de perfil */
+.main .main-img{
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.main-info{
+    width: 50%;
+}
+
+.info-name{
+    font-size:  32px;
+    margin-bottom: 15px;
+    
+}
+
+.info-description{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.main-links{
+    margin:50px  40px;
+}
+.main-link{
+    padding: 10px 20px;
+    margin:10px  5px;
+    border-radius: 10px;
+    background-color: salmon;
+    color: black;
+}
