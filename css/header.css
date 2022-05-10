@@ -9,15 +9,16 @@ body{
     font-weight: 400;
 }
 
-
+ 
 .main{
     width: 100%;
     height: 800px;
-    border: 1px solid black;   /*lo quiero visuarlizar el borde */
+    border: 1px solid  black; 
+    #66dbdf  /*lo quiero visuarlizar el borde */
     padding: 20px 35px;
+    background-color: #121f3d;
 
-
-    }
+    }  
 
 
 
@@ -26,8 +27,8 @@ body{
 /* ubicar el encabezado al lado izquierdo */
 .header{
     display: flex;
-    justify-content: space-between;
-    padding: 15 px;
+    justify-content: space-between; /* distribuye los espacios entre los elementos */
+    padding: 15px;  /* para que se separe de los borde de arriba*/
     background-color: #121f3d;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
     color: #e6e2bf;
@@ -43,6 +44,8 @@ body{
   }
 
 
+
+
   
 /*Logo    lo hacemos ver pequeño */
 .header-img{
@@ -54,12 +57,12 @@ body{
     display: flex;   /*que se vea horizontal */
     list-style: none ; /*none quita los puntos a la list */
     justify-content: space-between;
-    width: 800px;
+    width: 700px;  /*El tamaño de la barra de navegacion */
 
 }
 
 
-.header-list__item a {
+.header-list__item a, .home {
     color: rgb(176, 207, 212);
     padding: 5px;
     text-decoration: none;  /*quita el subrayado del link */
@@ -77,4 +80,17 @@ body{
 .header-h1{
     font-size: 15px;
     padding-left: 2em;
+}
+
+
+
+
+
+footer {
+    background-color: #03091e;
+    width: 100%;
+    height: 20vh;
+    color: #f1f1f1;
+    padding: 2em;
+    text-align: center;
 }
