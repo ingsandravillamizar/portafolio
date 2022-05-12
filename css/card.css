@@ -1,0 +1,214 @@
+:root{
+    --brand-color: #1d9bf0;
+  }
+
+  .main-index{
+   
+   position: absolute;
+   top: 60px;
+   display: flex;
+   flex-wrap: wrap; /*permite que se ajuste si se ajusta la pantall*/
+   z-index: 200;
+   width: 100%;
+   height: 85%;
+   overflow: hidden;
+   border: 1px solid rgb(0, 255, 136);
+   pointer-events: none;
+   background-color: #121f3d;
+   padding: 1rem;
+}  
+   .footer-index {
+      position: absolute;
+      /*border: 1px solid rgb(255, 0, 191);*/
+      bottom: 0px;
+      
+   }
+
+
+    .main-container_izquierdo{
+      position: relative;
+      z-index: 100;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      border: 1px solid rgb(255, 115, 0);
+     
+      }
+
+    .main-container_derecho{
+      position: relative;
+      z-index: 100;
+      width: 70%;
+      height: 100%;
+      overflow: hidden;
+      /*border: 1px solid rgb(98, 0, 255);*/
+    }
+
+
+  
+
+
+    /* CARD */
+    
+
+    .main-container{
+      position: relative;
+      z-index: 150;
+     /* width:25rem;*/
+      margin: 4rem auto 4rem auto;
+      max-height: 500;
+      display: flex;
+      flex-wrap: wrap; /*permite que se ajuste si se ajusta la pantall*/
+      justify-content: space-between;
+      align-items: center;
+      /*background-color:pink; /*#121f3d;  pink;*/
+      /*border: 1px solid rgb(46, 132, 202);*/
+  
+  }
+
+
+.card-container,
+.profesion-container{
+   
+   position: relative;
+   background-image: linear-gradient(140deg,#8498aa,#0e5190,#000);
+   
+}
+
+
+.card-container{
+   width: 100%;
+   min-height: 250px;
+   border-radius: 10px;
+   border: 2px solid #66dbdf;
+   
+}
+
+
+.card-img{
+ padding: 1px;
+}
+
+
+.avatar{
+   position: absolute;
+   top: -30px;
+   left: -40px;
+}
+
+.avatar img{
+   width: 6rem;
+}
+
+.profesion-container{
+   width: 15rem;
+   height: 3rem;
+   position: relative;
+   left: 4rem;
+   top: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 3;
+   border-radius: 2px;
+   /*border-radius: 60px 20px 5px 90px;*/
+  
+
+}
+
+.profesion-nombre{
+   text-transform: uppercase;
+   text-align: right;
+   color: aliceblue;
+ 
+}
+
+.card-name{
+   color: #66dbdf;
+   
+   text-align: center;
+
+}
+.card-descriptive{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: absolute;
+   width: 90%;
+}
+
+
+.card-descriptive p{
+   color: aliceblue;
+   font-size: 10px;
+   text-align: center;
+}
+
+
+
+
+
+/*Info */
+.main-info{
+   width:100%;
+   min-height: 350px;
+   text-align: center;
+ 
+}  
+.info-description{
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 10px;
+ 
+ } 
+
+
+
+
+/*links */
+
+.main-links{
+   margin: 20px 0;
+ }
+ 
+ .main--link{
+   padding: 5px 1px;
+   border-radius: 10px;
+   margin: 10px 5px;
+ }
+ 
+ .main--link__salmon{
+   background-color: rgb(177, 252, 177);
+   color: rgb(116, 36, 190);
+   text-decoration: underline;
+ }
+ 
+ .main--link__transparent{
+   text-decoration: underline;
+   color: aliceblue;
+ }
+
+.main-social-media{
+   align-items: center;
+   display: inline;
+ }
+ 
+ .main-social-media h2{
+   color: aliceblue;
+   font-size: 15px;
+   margin-right: 10px;
+  
+ }
+ .main-social-media a{
+   color: rgb(170, 203, 224);
+   font-size: 15px;
+   margin-right: 10px;
+  
+ }
+
+ .social-icon{
+   color: var(--brand-color);
+   font-size: 20px;
+ }
+
+

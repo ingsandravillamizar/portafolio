@@ -1,0 +1,151 @@
+:root{
+    --brand-color: #1d9bf0;
+  }
+
+.main-container{
+    width:90%;
+    margin: 20px auto;
+    height: 233;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121f3d; /* pink;*/
+    /*border: 1px solid rgb(46, 132, 202);*/
+
+}
+
+.card-container,
+.profesion-container{
+    
+   position: relative;
+   background-image: linear-gradient(140deg,#8498aa,#0e5190,#000);
+   
+}
+
+
+.card-container{
+   width: 100%;
+   min-height: 250px;
+   border-radius: 10px;
+   border: 2px solid #66dbdf;
+}
+
+
+.card-img{
+ padding: 1px;
+}
+.main-info{
+   width:40%;
+   min-height: 350px;
+   border-radius: 10px;
+   text-align: center;
+ 
+
+}
+.info-description{
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 10px;
+ 
+ }
+
+ 
+.avatar{
+   position: absolute;
+   top: -40px;
+   left: -60px;
+}
+
+.avatar img{
+   width: 80px;
+}
+
+.profesion-container{
+   width: 150px;
+   height: 40px;
+   position: relative;
+   left: 30px;
+   top: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 3;
+   border-radius: 2px;
+   /*border-radius: 60px 20px 5px 90px;*/
+  
+
+}
+
+.profesion-nombre{
+   text-transform: uppercase;
+   text-align: center;
+   color: aliceblue;
+ 
+}
+
+.card-name{
+   color: #66dbdf;
+   font-size: 15px;
+   text-align: center;
+
+}
+.card-descriptive{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: absolute;
+   width: 90%;
+}
+
+
+.card-descriptive p{
+   color: aliceblue;
+   font-size: 10px;
+   text-align: center;
+}
+
+
+
+
+.main-links{
+    margin: 20px 0;
+  }
+  
+  .main--link{
+    padding: 5px 1px;
+    border-radius: 10px;
+    margin: 10px 5px;
+  }
+  
+  .main--link__salmon{
+    background-color: rgb(177, 252, 177);
+    color: rgb(116, 36, 190);
+  }
+  
+  .main--link__transparent{
+    text-decoration: underline;
+    color: aliceblue;
+  }
+
+.main-social-media{
+    align-items: center;
+    display: inline;
+  }
+  
+  .main-social-media h2{
+    color: aliceblue;
+    font-size: 15px;
+    margin-right: 10px;
+   
+  }
+  .main-social-media a{
+    color: rgb(170, 203, 224);
+    font-size: 15px;
+    margin-right: 10px;
+   
+  }
+
+  .social-icon{
+    color: var(--brand-color);
+    font-size: 20px;
+  }
